@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="95px" height="99px" viewBox="0 0 95 99" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="117.593069%" id="linearGradient-1">
+            <stop stop-color="#FC6EC8" offset="0%"></stop>
+            <stop stop-color="#3B99F9" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-2" cx="257" cy="128.5" rx="46" ry="47.5"></ellipse>
+        <filter x="-2.6%" y="-1.5%" width="105.2%" height="105.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out"
+                         result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.235294118   0 0 0 0 0.6   0 0 0 0 0.976470588  0 0 0 0.522927989 0"
+                           type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="151.473843%" id="linearGradient-4">
+            <stop stop-color="#E364B6" offset="0%"></stop>
+            <stop stop-color="#3A94F2" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-5" font-family="Noteworthy-Light, Noteworthy" font-size="27" font-weight="300">
+            <tspan x="232" y="132">WTS</tspan>
+        </text>
+        <filter x="-3.9%" y="-2.6%" width="107.8%" height="110.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.658823529   0 0 0 0 0.564705882   0 0 0 0 0.850980392  0 0 0 1 0"
+                           type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#4560A1" offset="0%"></stop>
+            <stop stop-color="#368DE6" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-8" font-family="TeluguSangamMN, Telugu Sangam MN" font-size="10" font-weight="normal">
+            <tspan x="234" y="147">WEB/DEV</tspan>
+        </text>
+        <filter x="-3.7%" y="-7.1%" width="107.4%" height="128.6%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.235294118   0 0 0 0 0.6   0 0 0 0 0.976470588  0 0 0 0.522927989 0"
+                           type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-209.000000, -80.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use stroke="url(#linearGradient-1)" stroke-width="0.8" xlink:href="#path-2"></use>
+            </g>
+            <g id="WTS">
+                <use fill="#D8D8D8" fill-opacity="1" filter="url(#filter-6)" xlink:href="#text-5"></use>
+                <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#text-5"></use>
+                <use fill="#D8D8D8" fill-opacity="1" xlink:href="#text-5"></use>
+            </g>
+            <g id="WEB/DEV">
+                <use fill="#D8D8D8" fill-opacity="1" filter="url(#filter-9)" xlink:href="#text-8"></use>
+                <use fill="url(#linearGradient-7)" fill-rule="evenodd" xlink:href="#text-8"></use>
+                <use fill="#D8D8D8" fill-opacity="1" xlink:href="#text-8"></use>
+            </g>
+        </g>
+    </g>
+</svg>
